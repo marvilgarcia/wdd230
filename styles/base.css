@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+	font-family: "Sansita", sans-serif;
+}
+
+/* mobile **************************/
+header {
+	background-color: #f7d43a;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header,
+main {
+	max-width: 767px;
+	margin: 0 auto;
+    
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+nav {
+	background-color: #f7d43a;
+	margin: 0 auto;
+	max-width: 800px;
+}
+nav ul {
+	list-style-type: none;
+}
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav a:hover {
+	border: 1px solid #fff;
+}
+
+#profile-name {
+	color: #fff;
+}
+
+#profile-photo{
+    width: 25%;
+    padding-right: 10%;
+	box-shadow: rgba(0, 0, 0, 0.507);
+
+}
+
+footer{
+   
+    max-width: 767px;
+	margin: 0 auto; 
+    background-color: #f7d43a;
+    justify-self: center;
+    padding: 2%;
+}
+
+#profile-name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 2%;
+}
+
+.course-title{
+
+	grid-column: 1/4;
+}
+
+.card-1{
+	grid-column: 1/3;
+	
+	
+}
+.card-1, .card-2{
+	padding: 4%;
+	text-align: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.315);
+	margin: 2%;
+
+}
+.card-1 ul{
+	list-style-type: none;
+	text-align: left;
+
+	
+}
+
+section h3{
+	background-color: rgba(78, 144, 243, 0.863);
+	border-color: black;
+}
+
+h1, h2, h3{
+	padding: 2%;
+}
+.card-1 li{
+	padding: 1%;
+	font-weight: bold;
+}
