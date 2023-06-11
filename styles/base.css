@@ -62,14 +62,7 @@ nav a:hover {
 
 }
 
-footer{
-   
-    max-width: 767px;
-	margin: 0 auto; 
-    background-color: #f7d43a;
-    justify-self: center;
-    padding: 2%;
-}
+
 
 #profile-name{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -115,4 +108,24 @@ h1, h2, h3{
 .card-1 li{
 	padding: 1%;
 	font-weight: bold;
+}
+
+
+footer {
+	text-align: center;
+	max-width: 767px;
+	margin: 0 auto;
+	background-color: #f7d43a;
+	padding: 20px;
+	font-weight: bold;
+  }
+  
+#lastModified{
+	font-weight: normal;
+	font-size: small;
+}
+
+.foot {
+	display: inline-block;
+	justify-self: center;
 }
