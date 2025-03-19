@@ -8,23 +8,19 @@
     <meta name="author" content="Marvil Garcia">
     <meta name="Description"
         content="This is Marvil Garcia's course assigment portal from WDD 230 - Web Frontend Development.">
-    <meta property="og:title" content="Marvil Garcia" />
-    <meta property="og:type" content="assigment" />
-    <meta property="og:url" content="https://marvilgarcia.github.io/wdd230/" />
-    <meta property="og:image" content="images\marvil.jpeg" />
-    <link rel="stylesheet" href="styles\base.css">
-    <link rel="stylesheet" href="styles\larger.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
     <title>Marvil Garcia</title>
 </head>
 
 <body>
     <header>
-        <img id="profile-photo" src="images\marvil.jpeg" alt="profile-photo">
+        <img id="profile-photo" src="images/marvil.jpeg" alt="profile-photo">
         <h1 id="profile-name">Marvil Garcia</h1>
     </header>
     <nav>
         <ul>
-            <li><a href="">Home</a></li>
+            <li><a class="active" href="">Home</a></li>
             <li><a href="">Chamber</a></li>
             <li><a href="">Site Plan</a></li>
             <li><a href="">Form</a></li>
@@ -32,11 +28,11 @@
     </nav>
 
     <main>
-        <h2 class="course-title">WDD 230: Web Frontend Development</h2>
+        <h1 class="course-title">WDD 230: Web Frontend Development</h1>
         <section class="card-1">
-            <h3>Learning Activities</h3>
+            <h2>Learning Activities</h2>
             <ul>
-                <li><a>Week 01:</a> <a href="week01\chamber-site-plan.html">Site plan</a></li>
+                <li><a>Week 01:</a> <a href="week01/chamber-site-plan.html">Site plan</a></li>
                 <li><a>Week 02:</a></li>
                 <li><a>Week 03:</a></li>
                 <li><a>Week 04:</a></li>
@@ -46,14 +42,18 @@
             </ul>
         </section>
         <section class="card-2">
-            <h3>Information</h3>
+            <h2>Information</h2>
+            <p>Dominican Republic, SD</p>
+            <p>76F - Santo Domingo</p>
+            <p>Page Visits: 100</p>
         </section>
+
     </main>
     <footer>
         <p class="foot">
             Copyright &copy; Marvil Garcia | Dominican Republic
         </p>
-        <img class="foot" src="images/RD-flag.png" alt="DominicaRepublic-flag" width="5%">
+        <img class="foot" src="images/RD-flag.png" alt="Dominican Republic flag" width="5%">
         <p id="lastModified"></p>
     </footer>
 

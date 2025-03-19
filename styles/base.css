@@ -21,7 +21,7 @@ header {
 
 header,
 main {
-	max-width: 767px;
+	max-width: 1000px;
 	margin: 0 auto;
 
 }
@@ -33,7 +33,7 @@ h1 {
 nav {
 	background-color: #f7d43a;
 	margin: 0 auto;
-	max-width: 800px;
+	max-width: 1000px;
 }
 
 nav ul {
@@ -58,10 +58,9 @@ nav a:hover {
 }
 
 #profile-photo {
-	width: 25%;
-	padding-right: 10%;
-	box-shadow: rgba(0, 0, 0, 0.507);
-
+	width: 15%;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+	margin-right: 10%;
 }
 
 
@@ -79,6 +78,8 @@ main {
 .course-title {
 
 	grid-column: 1/4;
+	font-size: large;
+	border-bottom: 2px solid black;
 }
 
 .card-1 {
@@ -89,7 +90,6 @@ main {
 
 .card-1,
 .card-2 {
-	padding: 4%;
 	text-align: center;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.315);
 	margin: 2%;
@@ -99,6 +99,7 @@ main {
 .card-1 ul {
 	list-style-type: none;
 	text-align: left;
+	margin: 2%;
 
 
 }
@@ -122,7 +123,7 @@ h3 {
 
 footer {
 	text-align: center;
-	max-width: 767px;
+	max-width: 1000px;
 	margin: 0 auto;
 	background-color: #f7d43a;
 	padding: 20px;
@@ -136,5 +137,29 @@ footer {
 
 .foot {
 	display: inline-block;
-	justify-self: center;
+	align-content: center;
+	margin-left: 2%;
+}
+
+h2 {
+	background-color: #1d4e80;
+	/* Azul oscuro */
+	color: white;
+	/* Texto blanco */
+	text-align: center;
+	padding: 10px;
+	border-top-left-radius: 10px;
+	/* Bordes redondeados en la parte superior */
+	border-top-right-radius: 10px;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+
+nav .active {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.card-2 p {
+	padding: 4%;
+	margin: 4%;
 }
