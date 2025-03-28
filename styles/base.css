@@ -163,3 +163,13 @@ nav .active {
 	padding: 4%;
 	margin: 4%;
 }
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #000;
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+}

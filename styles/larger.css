@@ -3,9 +3,6 @@
 		display: flex;
 	}
 
-	nav ul li {
-		flex: 1 1 100%;
-	}
 
 }
 
@@ -21,5 +18,39 @@
 	.card-2 {
 		grid-column: 1 / -1;
 		/* Ocupan toda la fila en móviles */
+	}
+
+	#menu {
+		font-size: 1.5rem;
+		border: 0;
+		background: none;
+		color: #000;
+		position: absolute;
+		top: 1rem;
+		right: 1rem;
+
+	}
+
+	#menu::before {
+		content: "☰";
+	}
+
+	#menu.open::before {
+		content: "☰";
+	}
+
+	.navigation {
+		display: none;
+		flex-direction: column;
+		background-color: #f7d43a;
+		position: static;
+		top: 60px;
+		right: 0;
+		width: 100%;
+		text-align: center;
+	}
+
+	.navigation.open {
+		display: flex;
 	}
 }
