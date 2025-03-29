@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    font-family: 'Diphylleia', sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFDFE8;
+    color: black;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header,
+main,
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+#sd-logo {
+    width: 15%;
+    margin-right: 10%;
+}
+
+nav {
+    background-color: #FFDFE8;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    color: #402AC0;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    border: 1px solid white;
+}
+
+nav .active {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#hero {
+    position: relative;
+    background: #402AC0;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.slider {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.slider p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffcc00;
+    color: black;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.cards-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    padding: 2%;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.315);
+    margin: 2%;
+    background: #801C80;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 250px;
+    max-width: 30%;
+}
+
+.card-3 ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 2%;
+}
+
+footer {
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #C00E40;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.cards-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+    margin: 20px auto;
+    max-width: 1000px;
+    padding: 2%;
+}
+
+.card {
+    background: #801C80;
+    color: white;
+    padding: 2%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.315);
+    flex: 1;
+}
+
+#lastModified {
+    font-weight: normal;
+    font-size: small;
+}
+
+.foot {
+    display: inline-block;
+    align-content: center;
+    margin-left: 2%;
+}

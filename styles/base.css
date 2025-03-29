@@ -163,6 +163,8 @@ nav .active {
 	padding: 4%;
 	margin: 4%;
 }
+
 #menu {
-	display: none; /* hide hamburger button */
+	display: none;
+	/* hide hamburger button */
 }

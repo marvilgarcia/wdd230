@@ -1,0 +1,93 @@
+@media (min-width: 640px) {
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+
+        .cards-section {
+            display: flex;
+            flex-direction: column;
+            /* Organizar los cards en una columna */
+            gap: 20px;
+            justify-content: flex-start;
+            /* Alinear al principio */
+        }
+
+        .card-1,
+        .card-2,
+        .card-3 {
+            flex: 1;
+            min-width: 100%;
+            /* Asegurar que ocupen el 100% del ancho disponible */
+            max-width: 100%;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            flex: 1 1 auto;
+            text-align: center;
+        }
+
+        #hero .slider img {
+            width: 100%;
+            height: auto;
+            /* Mantener la proporción de la imagen */
+        }
+
+
+        #menu {
+            display: flex;
+            font-size: 1.5rem;
+            border: 0;
+            background: none;
+            color: #000;
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            cursor: pointer;
+        }
+
+        #menu::before {
+            content: "☰";
+        }
+
+        #menu.open::before {
+            content: "✖";
+        }
+
+        .navigation {
+            display: none;
+            flex-direction: column;
+            background-color: #FFDFE8;
+            position: absolute;
+            top: 60px;
+            right: 0;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+            z-index: 1000;
+        }
+
+        .navigation.open {
+            display: flex;
+        }
+
+        .navigation.open+main {
+            margin-top: 100px;
+        }
+    }
+}
