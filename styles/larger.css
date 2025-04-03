@@ -59,9 +59,13 @@
 	.navigation.open {
 		display: flex;
 	}
+
 	.overlay-text {
-        font-size: 1.2rem; /* Reducimos el tamaño de fuente */
-        padding: 10px 15px; /* Ajustamos el padding */
-        background: rgba(0, 0, 0, 0.5); /* Reducimos la opacidad para mejor visualización */
-    }
+		font-size: 1.2rem;
+		/* Reducimos el tamaño de fuente */
+		padding: 10px 15px;
+		/* Ajustamos el padding */
+		background: rgba(0, 0, 0, 0.5);
+		/* Reducimos la opacidad para mejor visualización */
+	}
 }
