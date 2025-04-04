@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Marvil Garcia">
+    <meta name="Description"
+        content="This is Marvil Garcia's course assignment portal from WDD 230 - Web Frontend Development.">
+    <meta property="og:title" content="Marvil Garcia - WDD 230 Course Portal">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/marvil.jpeg">
+    <meta property="og:url" content="chamber.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:description"
+        content="This is Marvil Garcia's assignment portal for the WDD 230 - Web Frontend Development course.">
+    <meta property="og:site_name" content="Marvil Garcia - WDD 230">
+    <meta name="twitter:image:alt" content="Profile photo of Marvil Garcia">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <title>Marvil Garcia</title>
+</head>
+
+<body>
+    <header>
+        <img id="sd-logo" src="images/sd.png" alt="logo">
+        <h1 id="logo">SD Chamber of Commerce</h1>
+        <button id="menu"></button>
+        <nav>
+            <ul class="navigation">
+                <li><a class="active" href="">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="">Directory</a></li>
+                <li><a href="">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="slider">
+                <img src="images/TORRE-ANACAONA.webp" alt="TORRE-ANACAONA"> <!-- Image slider placeholder -->
+                <p>Join the chamber</p>
+            </div>
+        </section>
+
+        <div class="cards-section">
+            <section class="card-1">
+                <h2>Purpose</h2>
+                <p>Promote local businesses and provide valuable resources to entrepreneurs.</p>
+            </section>
+
+            <section class="card-2">
+                <h2>Audience</h2>
+                <div class="cards">
+                    <div class="card">Startups</div>
+                    <div class="card">Small Businesses</div>
+                    <div class="card">Entrepreneurs</div>
+                </div>
+            </section>
+
+            <section class="card-3">
+                <h2>Scenarios</h2>
+                <ul>
+                    <li>Upcoming events for business growth</li>
+                    <li>Information about starting a business</li>
+                    <li>Networking opportunities</li>
+                </ul>
+            </section>
+        </div>
+
+        <section class="card-2">
+            <h2>Information</h2>
+            <p>Dominican Republic, SD</p>
+            <p>76F - Santo Domingo</p>
+            <p>Page Visits: 100</p>
+        </section>
+    </main>
+
+    <footer>
+        <p class="foot">
+            &copy; 2025 SD Chamber of Commerce |Marvil Garcia | WDD 230: project
+        </p>
+        <img class="foot" src="images/RD-flag.png" alt="Dominican Republic flag" width="5%">
+        <p id="lastModified"></p>
+    </footer>
+
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamMenu.js"></script>
+</body>
+
+</html>
