@@ -78,7 +78,7 @@ nav .active {
     border-radius: 8px;
 }
 
-.slider p {
+.slider a {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -261,7 +261,7 @@ footer {
     gap: 1rem;
 }
 
-.logo-column img#sd-logo {
+.logo-column img#sd-logo-footer {
     width: 80px;
     height: auto;
 }
