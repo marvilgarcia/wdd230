@@ -17,6 +17,7 @@
         content="This is Marvil Garcia's assignment portal for the WDD 230 - Web Frontend Development course.">
     <meta property="og:site_name" content="Marvil Garcia - WDD 230">
     <meta name="twitter:image:alt" content="Profile photo of Marvil Garcia">
+    <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
     <title>Marvil Garcia</title>
@@ -127,12 +128,33 @@
     </main>
 
     <footer>
+        <div class="footer-top">
+            <section class="information">
+                <div class="info-columns">
+                    <div class="logo-column">
+                        <img id="sd-logo" src="images/sd.png" alt="logo">
+                    </div>
+                    <div class="text-column">
+                        <p>Santo Domingo Chamber of Commerce</p>
+                        <p>10 Laurel St</p>
+                        <p>Santo Domingo, DR</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact">
+                <p>Contact: info@sdchamber.org</p>
+                <p>(809) 555-1234</p>
+            </section>
+        </div>
+
         <p class="foot">
-            &copy; 2025 SD Chamber of Commerce |Marvil Garcia | WDD 230: project
+            &copy; 2025 SD Chamber of Commerce | Marvil Garcia | WDD 230: project |
+            <span id="last-modified"></span>
         </p>
-        <img class="foot" src="images/RD-flag.png" alt="Dominican Republic flag" width="5%">
-        <p id="lastModified"></p>
     </footer>
+
+
 
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamMenu.js"></script>

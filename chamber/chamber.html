@@ -17,6 +17,7 @@
         content="This is Marvil Garcia's assignment portal for the WDD 230 - Web Frontend Development course.">
     <meta property="og:site_name" content="Marvil Garcia - WDD 230">
     <meta name="twitter:image:alt" content="Profile photo of Marvil Garcia">
+    <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/large.css">
     <title>Marvil Garcia</title>
@@ -24,7 +25,7 @@
 
 <body>
 
-    
+
     <header>
         <img id="sd-logo" src="images/sd.png" alt="logo">
         <h1 id="logo">SD Chamber of Commerce</h1>
@@ -65,31 +66,66 @@
             <section class="card-3">
                 <h2>Scenarios</h2>
                 <ul>
-                    <li>Upcoming events for business growth</li>
-                    <li>Information about starting a business</li>
-                    <li>Networking opportunities</li>
+                    <li>🎉 <a href="https://drjazzfestival.com/" target="_blank">Santo Domingo Jazz Festival - July
+                            12</a></li>
+                    <li>🏖️ <a href="https://www.godominicanrepublic.com/" target="_blank">Summer Beach Fair - August
+                            5</a></li>
+                    <li>🎭 <a href="https://www.colonialzone-dr.com/theater/" target="_blank">Colonial Zone Theater
+                            Nights - Every Friday</a></li>
                 </ul>
+            </section>
+            <section class="card-4">
+                <h2>Information</h2>
+                <p>Dominican Republic, SD</p>
+                <p>Page Visits: <span id="visit-counter">0</span></p>
+            </section>
+
+            <section class="card-5">
+                <h2>Weather</h2>
+                <a class="weatherwidget-io" href="https://forecast7.com/en/18d49n69d93/santo-domingo/"
+                    data-label_1="SANTO DOMINGO" data-label_2="WEATHER" data-theme="original">SANTO DOMINGO WEATHER</a>
+                <script>
+                    !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
+                </script>
+
             </section>
         </div>
 
-        <section class="card-2">
-            <h2>Information</h2>
-            <p>Dominican Republic, SD</p>
-            <p>76F - Santo Domingo</p>
-            <p>Page Visits: 100</p>
-        </section>
+
     </main>
 
     <footer>
+        <div class="footer-top">
+            <section class="information">
+                <div class="info-columns">
+                    <div class="logo-column">
+                        <img id="sd-logo" src="images/sd.png" alt="logo">
+                    </div>
+                    <div class="text-column">
+                        <p>Santo Domingo Chamber of Commerce</p>
+                        <p>10 Laurel St</p>
+                        <p>Santo Domingo, DR</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact">
+                <p>Contact: info@sdchamber.org</p>
+                <p>(809) 555-1234</p>
+            </section>
+        </div>
+
         <p class="foot">
-            &copy; 2025 SD Chamber of Commerce |Marvil Garcia | WDD 230: project
+            &copy; 2025 SD Chamber of Commerce | Marvil Garcia | WDD 230: project |
+            <span id="last-modified"></span>
         </p>
-        <img class="foot" src="images/RD-flag.png" alt="Dominican Republic flag" width="5%">
-        <p id="lastModified"></p>
     </footer>
+
 
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamMenu.js"></script>
+    <script src="scripts/visit-counter.js"></script>
+
 </body>
 
 </html>

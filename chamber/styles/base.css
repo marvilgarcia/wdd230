@@ -8,6 +8,8 @@
 body {
     font-family: 'Diphylleia', sans-serif;
     background-color: #f5f5f5;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 header {
@@ -18,15 +20,6 @@ header {
     color: black;
     padding: 20px;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-header,
-main,
-body {
-    max-width: 1000px;
-    margin: 0 auto;
 }
 
 #sd-logo {
@@ -37,7 +30,6 @@ body {
 nav {
     background-color: #FFDFE8;
     margin: 0 auto;
-    max-width: 1000px;
 }
 
 nav ul {
@@ -103,27 +95,28 @@ nav .active {
 
 .cards-section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    gap: 10px;
-    margin: 10px auto;
-    max-width: 1000px;
+    gap: 20px;
+    margin: 20px auto;
     padding: 2%;
 }
 
 .card-1,
 .card-2,
-.card-3 {
-
+.card-3,
+.card-4,
+.card-5 {
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.315);
-    margin: 2%;
     background: #801C80;
     color: white;
     padding: 20px;
     border-radius: 10px;
-    flex: 1;
-    min-width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.315);
+    flex: 1 1 48%;
     max-width: 30%;
+    min-width: 250px;
+    margin-bottom: 20px;
 }
 
 .card-3 ul {
@@ -132,43 +125,42 @@ nav .active {
     margin: 2%;
 }
 
-footer {
-    text-align: center;
-    max-width: 1000px;
-    margin: 0 auto;
-    background-color: #C00E40;
-    padding: 20px;
-    font-weight: bold;
-}
-
-.cards-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    gap: 20px;
-    margin: 20px auto;
-    max-width: 1000px;
-    padding: 2%;
-}
-
 .card {
     background: #801C80;
     color: white;
     padding: 2%;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.315);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.315);
     flex: 1;
 }
 
-#lastModified {
-    font-weight: normal;
-    font-size: small;
+.card-5 {
+    flex: 1 1 60%;
+    max-width: 60%;
+}
+
+.weatherwidget-io {
+    width: 100% !important;
+    height: 150px !important;
+    display: block;
+}
+
+footer {
+    text-align: center;
+    background-color: #C00E40;
+    padding: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+footer section {
+    display: flex;
+    align-items: center;
 }
 
 .foot {
     display: inline-block;
-    align-content: center;
     margin-left: 2%;
 }
 
@@ -181,56 +173,6 @@ footer {
 .sidebar {
     background-color: #f2f2f2;
     padding: 1rem;
-}
-
-.gallery {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.gallery figure {
-    margin-bottom: 2rem;
-    padding: 1rem;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.gallery h3 {
-    margin-bottom: 0.5rem;
-    font-size: 1.2rem;
-    color: #2a2a2a;
-}
-
-.gallery img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 0.5rem;
-}
-
-.gallery figcaption {
-    font-size: 0.95rem;
-    color: #444;
-    line-height: 1.4;
-}
-
-.gallery figure {
-    margin-bottom: 2rem;
-    text-align: center;
-}
-
-.gallery h3 {
-    margin-bottom: 0.5rem;
-    color: #003366;
-}
-
-.gallery figcaption {
-    margin-top: 0.5rem;
-    font-style: italic;
-    color: #555;
 }
 
 .sidebar h3 {
@@ -254,8 +196,104 @@ footer {
     margin-bottom: 1rem;
 }
 
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.gallery figure {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.gallery h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    color: #003366;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.gallery figcaption {
+    font-size: 0.95rem;
+    font-style: italic;
+    color: #555;
+    line-height: 1.4;
+    margin-top: 0.5rem;
+}
+
 iframe {
     width: 100%;
     border-radius: 5px;
     margin-top: 1rem;
+}
+
+footer {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #C00E40;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.information .info-columns {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-column img#sd-logo {
+    width: 80px;
+    height: auto;
+}
+
+.text-column {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.text-column p {
+    margin: 0.3rem 0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+    margin-left: 3%;
+    gap: 0.5rem;
+}
+
+footer .foot {
+    text-align: center;
+}
+
+#last-modified {
+    display: inline-block;
+    margin-left: 0.5rem;
+    font-weight: normal;
+    font-size: 0.95rem;
+    color: #f0f0f0;
 }
