@@ -1,0 +1,73 @@
+:root {
+  --main-bg: #f4f4f4;
+  --accent-color: #f7d43a;
+  --form-padding: 1rem;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--main-bg);
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  background-color: var(--accent-color);
+  color: black;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: black;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+main {
+  padding: var(--form-padding);
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+  background-color: whibte;
+  padding: var(--form-padding);
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="range"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: var(--accent-color);
+  color: black;
+  border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00487a;
+}
