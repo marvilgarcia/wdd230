@@ -49,29 +49,22 @@
         </section>
         <h1 class="course-title">WDD 230: Web Frontend Development</h1>
         <section class="card-1">
-            <h2>Learning Activities</h2>
-            <ul>
-                <li>Week 01: <a href="week01/chamber-site-plan.html">Site plan</a></li>
-                <li>Week 02: <a href="week02/design.html"> Design| </a><a
-                        href="https://codepen.io/marvilgarcia/pen/mydjdwm"> Codepen| </a> <a href="week02/bom.html"> Bom
-                    </a></li>
-                <li>Week 03: <a href="week03/images/landscape.webp">Webp|</a><a href="week03/lazyload.html">
-                        lazy|</a><a href="week03/responsive-images.html"> srcset|</a><a href="week03/bom.html">
-                        localstorage</a></li>
-                <li>Week 04:<a href="https://codepen.io/marvilgarcia/pen/MYWNQwj"> Pseudo| </a> <a
-                        href="week04/tablebuild.html"> Table| </a></li>
-                <li>Week 05:<a href="https://codepen.io/marvilgarcia/pen/qEBepNa"> Pseudo| </a> <a
-                        href="week05/new-ward-members.json"> Json| </a><a href="week05/prophets.html"> Prophets| </a><a
-                        href="week05/weather.html"> Weather| </a>
-                </li>
-                <li><a>Week 06:</a></li>
-                <li><a>Week 07:</a></li>
-            </ul>
+            <section class="activity-links">
+                <h2>Learning Activities</h2>
+                <div id="links"></div>
+            </section>
         </section>
         <section class="card-2">
             <h2>Information</h2>
-            <p>Dominican Republic, SD</p>
-            <p>76F - Santo Domingo</p>
+            <section class="weather">
+                <h3>Weather</h3>
+                <p><span id="current-temp"></span></p>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption id="weather-desc"></figcaption>
+                </figure>
+
+            </section>
             <p>Page Visits: <span id="visit-counter">0</span></p>
         </section>
         <iframe id="map"
@@ -93,6 +86,9 @@
     <script src="script/getDates.js"></script>
     <script src="script/hamMenu.js"></script>
     <script src="script/visit-counter.js"></script>
+    <script src="script/weather.js"></script>
+    <script src="script/links.js"></script>
+
 
 </body>
 

@@ -1,0 +1,98 @@
+{
+    "weeks": [
+      {
+        "week": "Week 01",
+        "links": [
+          {
+            "url": "https://codepen.io/marvilgarcia/pen/YPzmedb",
+            "title": "Grail"
+          },
+          {
+            "url": "week01/media-query.html",
+            "title": "Media Query"
+          }
+        ]
+      },
+      {
+        "week": "Week 02",
+        "links": [
+          {
+            "url": "week02/design.html",
+            "title": "Design"
+          },
+          {
+            "url": "https://codepen.io/marvilgarcia/pen/mydjdwm",
+            "title": "Codepen"
+          },
+          {
+            "url": "week02/bom.html",
+            "title": "Bom"
+          }
+        ]
+      },
+      {
+        "week": "Week 03",
+        "links": [
+          {
+            "url": "week03/images/landscape.webp",
+            "title": "WebP"
+          },
+          {
+            "url": "week03/lazyload.html",
+            "title": "Lazy"
+          },
+          {
+            "url": "week03/responsive-images.html",
+            "title": "Srcset"
+          },
+          {
+            "url": "week03/bom.html",
+            "title": "LocalStorage"
+          }
+        ]
+      },
+      {
+        "week": "Week 04",
+        "links": [
+          {
+            "url": "https://codepen.io/marvilgarcia/pen/MYWNQwj",
+            "title": "Pseudo"
+          },
+          {
+            "url": "week04/images/combinators.png",
+            "title": "Combinators"
+          },
+          {
+            "url": "week04/tablebuild.html",
+            "title": "Table"
+          },
+          {
+            "url": "week04/index.html",
+            "title": "Form"
+          }
+        ]
+      },
+      {
+        "week": "Week 05",
+        "links": [
+          {
+            "url": "https://codepen.io/marvilgarcia/pen/qEBepNa",
+            "title": "Pseudo"
+          },
+          {
+            "url": "week05/new-ward-members.json",
+            "title": "JSON"
+          },
+          {
+            "url": "week05/prophets.html",
+            "title": "Prophets"
+          },
+          {
+            "url": "week05/weather.html",
+            "title": "Weather"
+          }
+        ]
+      }
+    ]
+  }
+  
