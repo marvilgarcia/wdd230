@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Marvil Garcia">
-  <meta property="og:title" content="SD Chamber of Commerce"">
-    <meta property=" og:type" content="website">
+  <meta property="og:title" content="SD Chamber of Commerce">
+  <meta property="og:type" content="website">
   <meta property="og:image" content="images/sd.png">
   <meta property="og:url" content="chamber/chamber.html">
   <meta name="twitter:card" content="summary_large_image">
@@ -23,7 +23,6 @@
 
 <body>
 
-
   <header>
     <img id="sd-logo" src="images/sd.png" alt="logo">
     <h1 id="logo">SD Chamber of Commerce</h1>
@@ -33,7 +32,7 @@
         <li><a class="active" href="chamber.html">Home</a></li>
         <li><a href="discover.html">Discover</a></li>
         <li><a href="">Directory</a></li>
-        <li><a href="">Join</a></li>
+        <li><a href="join.html">Join</a></li>
       </ul>
     </nav>
   </header>
@@ -44,6 +43,7 @@
       <section>
         <h2>Join Our Chamber</h2>
         <form method="get" action="thankyou.html">
+          <input type="hidden" id="timestamp" name="timestamp">
           <label for="fname">First Name*</label>
           <input type="text" id="fname" name="fname" required>
 
@@ -75,18 +75,50 @@
           <textarea id="description" name="description" rows="4"></textarea>
 
           <input type="submit" value="Submit">
+          <script>
+            document.addEventListener("DOMContentLoaded", () => {
+              document.getElementById("timestamp").value = new Date().toISOString();
+            });
+          </script>
         </form>
       </section>
 
       <!-- Membership Benefits -->
       <aside>
-        <h2>Membership Benefits</h2>
-        <ul>
-          <li><strong>NP:</strong> Access to events and basic listings</li>
-          <li><strong>Bronze:</strong> Featured directory listing</li>
-          <li><strong>Silver:</strong> Website promotion + Bronze perks</li>
-          <li><strong>Gold:</strong> VIP networking & all other perks</li>
-        </ul>
+        <section class="membership-levels">
+          <h2>Membership Levels</h2>
+
+          <div class="membership-card bronze">
+            <h3>Bronze</h3>
+            <p class="price">$100/year</p>
+            <ul>
+              <li>Access to Events</li>
+              <li>Basic Directory Listing</li>
+            </ul>
+          </div>
+
+          <div class="membership-card silver">
+            <h3>Silver</h3>
+            <p class="price">$250/year</p>
+            <ul>
+              <li>All Bronze benefits</li>
+              <li>Event Discounts</li>
+              <li>Newsletter Ads</li>
+            </ul>
+          </div>
+
+          <div class="membership-card gold">
+            <h3>Gold</h3>
+            <p class="price">$500/year</p>
+            <ul>
+              <li>All Silver benefits</li>
+              <li>Spotlight on Homepage</li>
+              <li>Priority Support</li>
+              <li>Exclusive Trainings</li>
+            </ul>
+          </div>
+        </section>
+
       </aside>
     </div>
   </main>
