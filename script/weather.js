@@ -9,7 +9,8 @@ async function fetchWeather() {
         if (!response.ok) throw new Error("Weather data fetch failed");
         const data = await response.json();
 
-        // Populate DOM
+        document.getElementById("city-name").textContent = ` ${data.name}`;
+
         document.getElementById("current-temp").textContent = `${data.main.temp.toFixed(1)}°C`;
         const iconURL = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
         document.getElementById("weather-icon").setAttribute("src", iconURL);
@@ -21,3 +22,4 @@ async function fetchWeather() {
 }
 
 fetchWeather();
+
