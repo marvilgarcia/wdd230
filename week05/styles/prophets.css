@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    background-color: #2a4365;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Cards Grid */
+#cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+}
+
+/* Individual Card */
+#cards section {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+}
+
+#cards h2 {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+    color: #2a4365;
+}
+
+#cards p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+#cards img {
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #2a4365;
+    color: white;
+}
+
+/* 📱 Media Query for Mobile */
+@media screen and (max-width: 768px) {
+    #cards {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+
+    #cards section {
+        padding: 1rem 0.5rem;
+    }
+
+    footer {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #cards {
+        grid-template-columns: 1fr;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+}

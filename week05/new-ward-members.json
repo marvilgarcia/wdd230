@@ -1,0 +1,56 @@
+{
+    "families": [
+      {
+        "familyName": "Santos",
+        "moveInDate": "2024-03-12",
+        "numberOfMembers": 4,
+        "visitedByBishopric": true,
+        "members": [
+          {
+            "name": "Juan Santos",
+            "gender": "Male",
+            "birthdate": "1980-07-20"
+          },
+          {
+            "name": "Ana Santos",
+            "gender": "Female",
+            "birthdate": "1982-11-15"
+          },
+          {
+            "name": "Pedro Santos",
+            "gender": "Male",
+            "birthdate": "2010-01-05"
+          },
+          {
+            "name": "Luisa Santos",
+            "gender": "Female",
+            "birthdate": "2012-09-10"
+          }
+        ]
+      },
+      {
+        "familyName": "Martinez",
+        "moveInDate": "2023-08-28",
+        "numberOfMembers": 3,
+        "visitedByBishopric": false,
+        "members": [
+          {
+            "name": "Carlos Martinez",
+            "gender": "Male",
+            "birthdate": "1990-02-02"
+          },
+          {
+            "name": "Lucia Martinez",
+            "gender": "Female",
+            "birthdate": "1993-05-14"
+          },
+          {
+            "name": "Emma Martinez",
+            "gender": "Female",
+            "birthdate": "2018-07-30"
+          }
+        ]
+      }
+    ]
+  }
+  
