@@ -16,6 +16,7 @@ async function fetchWeather() {
         document.getElementById("weather-icon").setAttribute("src", iconURL);
         document.getElementById("weather-icon").setAttribute("alt", data.weather[0].description);
         document.getElementById("weather-desc").textContent = data.weather[0].description;
+        
     } catch (error) {
         console.error("Error fetching weather:", error);
     }
