@@ -44,6 +44,7 @@
         <h2>Join Our Chamber</h2>
         <form method="get" action="thankyou.html">
           <input type="hidden" id="timestamp" name="timestamp">
+
           <label for="fname">First Name*</label>
           <input type="text" id="fname" name="fname" required>
 
@@ -51,16 +52,17 @@
           <input type="text" id="lname" name="lname" required>
 
           <label for="email">Email*</label>
-          <input type="email" id="email" name="email" required>
+          <input type="email" id="email" name="email" required placeholder="name@example.com">
 
-          <label for="phone">Phone</label>
-          <input type="tel" id="phone" name="phone">
+          <label for="phone">Phone*</label>
+          <input type="tel" id="phone" name="phone" required>
 
           <label for="business">Business/Organization Name*</label>
           <input type="text" id="business" name="business" required>
 
           <label for="title">Title/Position</label>
-          <input type="text" id="title" name="title">
+          <input type="text" id="title" name="title" pattern="[A-Za-z\- ]{7,}"
+            title="At least 7 letters, hyphens, or spaces only.">
 
           <label for="membership">Membership Level*</label>
           <select id="membership" name="membership" required>
@@ -75,6 +77,7 @@
           <textarea id="description" name="description" rows="4"></textarea>
 
           <input type="submit" value="Submit">
+
           <script>
             document.addEventListener("DOMContentLoaded", () => {
               document.getElementById("timestamp").value = new Date().toISOString();
@@ -82,6 +85,7 @@
           </script>
         </form>
       </section>
+
 
       <!-- Membership Benefits -->
       <aside>
