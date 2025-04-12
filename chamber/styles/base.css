@@ -297,3 +297,82 @@ footer .foot {
     font-size: 0.95rem;
     color: #f0f0f0;
 }
+
+.form-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    max-width: 1000px;
+  }
+  
+  .form-layout section,
+  .form-layout aside {
+    background-color: #f8f8f8;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .form-layout h2 {
+    margin-bottom: 1rem;
+    color: #402AC0;
+  }
+  
+  /* Form elements */
+  form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  form input,
+  form select,
+  form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  form input[type="submit"] {
+    background-color: #C00E40;
+    color: white;
+    font-weight: bold;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #a70c34;
+  }
+  
+  /* Membership benefits list */
+  aside ul {
+    list-style: none;
+    padding-left: 1rem;
+    margin-top: 1rem;
+  }
+  
+  aside li::before {
+    content: "✔️ ";
+    color: #402AC0;
+    margin-right: 0.5rem;
+  }
+  
+  aside li {
+    margin-bottom: 0.75rem;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: #333;
+  }

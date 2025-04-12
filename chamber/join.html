@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Marvil Garcia">
+  <meta property="og:title" content="SD Chamber of Commerce"">
+    <meta property=" og:type" content="website">
+  <meta property="og:image" content="images/sd.png">
+  <meta property="og:url" content="chamber/chamber.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="description"
+    content="Discover Santo Domingo Chamber of Commerce activities, community events, and business highlights curated by Marvil Garcia for WDD 230.">
+  <meta property="og:site_name" content="SD Chamber of Commerce">
+  <meta name="twitter:image:alt" content="SD Chamber of Commerce logo">
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/large.css">
+  <title>SD Chamber of Commerce</title>
+</head>
+
+<body>
+
+
+  <header>
+    <img id="sd-logo" src="images/sd.png" alt="logo">
+    <h1 id="logo">SD Chamber of Commerce</h1>
+    <button id="menu"></button>
+    <nav>
+      <ul class="navigation">
+        <li><a class="active" href="chamber.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="">Directory</a></li>
+        <li><a href="">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="form-layout">
+      <!-- Membership Form -->
+      <section>
+        <h2>Join Our Chamber</h2>
+        <form method="get" action="thankyou.html">
+          <label for="fname">First Name*</label>
+          <input type="text" id="fname" name="fname" required>
+
+          <label for="lname">Last Name*</label>
+          <input type="text" id="lname" name="lname" required>
+
+          <label for="email">Email*</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" name="phone">
+
+          <label for="business">Business/Organization Name*</label>
+          <input type="text" id="business" name="business" required>
+
+          <label for="title">Title/Position</label>
+          <input type="text" id="title" name="title">
+
+          <label for="membership">Membership Level*</label>
+          <select id="membership" name="membership" required>
+            <option value="">Please select</option>
+            <option value="non-profit">NP Membership (Free)</option>
+            <option value="bronze">Bronze Membership</option>
+            <option value="silver">Silver Membership</option>
+            <option value="gold">Gold Membership</option>
+          </select>
+
+          <label for="description">Business Description</label>
+          <textarea id="description" name="description" rows="4"></textarea>
+
+          <input type="submit" value="Submit">
+        </form>
+      </section>
+
+      <!-- Membership Benefits -->
+      <aside>
+        <h2>Membership Benefits</h2>
+        <ul>
+          <li><strong>NP:</strong> Access to events and basic listings</li>
+          <li><strong>Bronze:</strong> Featured directory listing</li>
+          <li><strong>Silver:</strong> Website promotion + Bronze perks</li>
+          <li><strong>Gold:</strong> VIP networking & all other perks</li>
+        </ul>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <section class="information">
+        <div class="info-columns">
+          <div class="logo-column">
+            <img id="sd-logo-footer" src="images/sd.png" alt="logo">
+          </div>
+          <div class="text-column">
+            <h2>Information</h2>
+            <p>Santo Domingo Chamber of Commerce</p>
+            <p>10 Laurel St</p>
+            <p>Santo Domingo, DR</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <h2>Contact</h2>
+        <p>Contact: info@sdchamber.org</p>
+        <p>(809) 555-1234</p>
+      </section>
+    </div>
+
+    <p class="foot">
+      &copy; 2025 SD Chamber of Commerce | Marvil Garcia | WDD 230: project |
+      <span id="last-modified"></span>
+    </p>
+  </footer>
+
+  <script src="scripts/getDates.js"></script>
+  <script src="scripts/hamMenu.js"></script>
+  <script src="scripts/visit-counter.js"></script>
+
+</body>
+
+</html>
