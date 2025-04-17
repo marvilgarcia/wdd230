@@ -19,7 +19,7 @@
         "name": "Seaboard",
         "address": "Av. Abraham Lincoln 1019, Santo Domingo",
         "phone": "809-555-1234",
-        "website": "https://www.seaboard.com.do/",
+        "website": "https://www.seaboardmarine.com/dominican-republic/",
         "image": "https://stodoo.blob.core.windows.net/container-odoo-caribe-prod/binary_field-17150197799a0f882cab93bb8e8dfa77d4f48688024880ff04.gif",
         "membership": "Gold"
     },
@@ -27,7 +27,7 @@
         "name": "Grupo Ramos",
         "address": "Autopista San Isidro, Santo Domingo Este",
         "phone": "809-555-5678",
-        "website": "https://www.gruporamos.com.do/",
+        "website": "https://gruporamos.com/",
         "image": "https://www.gruporamos.com.do/wp-content/uploads/2020/06/logo-grupo-ramos.png",
         "membership": "Platinum"
     },
@@ -67,7 +67,7 @@
         "name": "Coca-Cola Dominicana",
         "address": "Carretera de Mendoza, Santo Domingo Este",
         "phone": "809-591-4000",
-        "website": "https://www.coca-cola.com.do/",
+        "website": "https://www.coca-colacompany.com/",
         "image": "https://www.coca-cola.com/content/dam/onexp/do/es/homepage/logo.svg",
         "membership": "Silver"
     }
