@@ -18,7 +18,7 @@
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <title>SD Chamber of Commerce</title>
+    <title>Chamber Directory - Marvil Garcia</title>
 </head>
 
 <body>
@@ -32,64 +32,22 @@
             <ul class="navigation">
                 <li><a class="active" href="chamber.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
+                <li><a href="">Directory</a></li>
                 <li><a href="join.html">Join</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="hero">
-            <div class="slider">
-                <img src="images/TORRE-ANACAONA.webp" alt="TORRE-ANACAONA"> <!-- Image slider placeholder -->
-                <a href="join.html">Join the chamber</a>
-            </div>
-        </section>
-
-        <div class="cards-section">
-            <section class="card-1">
-                <h2>Purpose</h2>
-                <p>Promote local businesses and provide valuable resources to entrepreneurs.</p>
-            </section>
-
-            <section class="card-2">
-                <h2>Audience</h2>
-                <div class="cards">
-                    <div class="card">Startups</div>
-                    <div class="card">Small Businesses</div>
-                    <div class="card">Entrepreneurs</div>
-                </div>
-            </section>
-
-            <section class="card-3">
-                <h2>Scenarios</h2>
-                <ul>
-                    <li>🎉 <a href="https://drjazzfestival.com/" target="_blank">Santo Domingo Jazz Festival - July
-                            12</a></li>
-                    <li>🏖️ <a href="https://www.godominicanrepublic.com/" target="_blank">Summer Beach Fair - August
-                            5</a></li>
-                    <li>🎭 <a href="https://www.colonialzone-dr.com/theater/" target="_blank">Colonial Zone Theater
-                            Nights - Every Friday</a></li>
-                </ul>
-            </section>
-            <section class="card-4">
-                <h2>Information</h2>
-                <p>Dominican Republic, SD</p>
-                <p>Page Visits: <span id="visit-counter">0</span></p>
-            </section>
-
-            <section class="card-5">
-                <h2>Weather</h2>
-                <a class="weatherwidget-io" href="https://forecast7.com/en/18d49n69d93/santo-domingo/"
-                    data-label_1="SANTO DOMINGO" data-label_2="WEATHER" data-theme="original">SANTO DOMINGO WEATHER</a>
-                <script>
-                    !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = 'https://weatherwidget.io/js/widget.min.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'weatherwidget-io-js');
-                </script>
-
-            </section>
+        <h2>Business Directory</h2>
+        <div class="view-toggle">
+            <button id="gridBtn">Grid View</button>
+            <button id="listBtn">List View</button>
         </div>
 
-
+        <div id="directory" class="grid-view">
+            <!-- JS cargará aquí las tarjetas o filas de miembros -->
+        </div>
     </main>
 
     <footer>
@@ -122,6 +80,7 @@
     </footer>
 
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/directory.js"></script>
     <script src="scripts/hamMenu.js"></script>
     <script src="scripts/visit-counter.js"></script>
 

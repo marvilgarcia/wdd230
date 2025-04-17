@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Brenntag Caribe, SRL",
+        "address": "Av. Isabel Aguiar 209, Zona Industrial Herrera, Santo Domingo",
+        "phone": "809-531-8060",
+        "website": "https://www.brenntag.com/es-do/",
+        "image": "chamber/images/Breenntag.webp",
+        "membership": "Gold"
+    },
+    {
+        "name": "Cooperativa Los Arroceros",
+        "address": "Federico Basilis No.6, La Laguna, La Vega",
+        "phone": "809-242-6313",
+        "website": "https://coopearroz.com/",
+        "image": "https://coopearroz.com/wp-content/uploads/2021/10/logo_coopearroz.png",
+        "membership": "Silver"
+    },
+    {
+        "name": "Seaboard",
+        "address": "Av. Abraham Lincoln 1019, Santo Domingo",
+        "phone": "809-555-1234",
+        "website": "https://www.seaboard.com.do/",
+        "image": "https://seaboard.com.do/wp-content/uploads/2020/09/Seaboard_logo.png",
+        "membership": "Gold"
+    },
+    {
+        "name": "Grupo Ramos",
+        "address": "Autopista San Isidro, Santo Domingo Este",
+        "phone": "809-555-5678",
+        "website": "https://www.gruporamos.com.do/",
+        "image": "https://www.gruporamos.com.do/wp-content/uploads/2020/06/logo-grupo-ramos.png",
+        "membership": "Platinum"
+    },
+    {
+        "name": "Induveca",
+        "address": "Zona Industrial de Santiago, Santiago",
+        "phone": "809-555-9012",
+        "website": "https://www.induveca.com.do/",
+        "image": "https://induveca.com.do/images/logoinduveca.png",
+        "membership": "Gold"
+    },
+    {
+        "name": "La Sirena",
+        "address": "Av. Winston Churchill, Santo Domingo",
+        "phone": "809-555-3456",
+        "website": "https://www.lasirena.com.do/",
+        "image": "https://www.lasirena.com.do/images/logo.png",
+        "membership": "Silver"
+    },
+    {
+        "name": "Banco Popular Dominicano",
+        "address": "Av. John F. Kennedy, Santo Domingo",
+        "phone": "809-544-5555",
+        "website": "https://www.popularenlinea.com/",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Logo_Banco_Popular_Dominicano.png",
+        "membership": "Platinum"
+    },
+    {
+        "name": "Claro Dominicana",
+        "address": "Av. John F. Kennedy esquina Lope de Vega, Santo Domingo",
+        "phone": "809-220-1111",
+        "website": "https://www.claro.com.do/",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Claro.svg",
+        "membership": "Gold"
+    },
+    {
+        "name": "Coca-Cola Dominicana",
+        "address": "Carretera de Mendoza, Santo Domingo Este",
+        "phone": "809-591-4000",
+        "website": "https://www.coca-cola.com.do/",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Coca-Cola_logo.svg",
+        "membership": "Silver"
+    }
+]

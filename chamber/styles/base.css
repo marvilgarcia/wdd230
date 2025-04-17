@@ -427,4 +427,26 @@ footer .foot {
   .gold {
     border-top: 4px solid #FFD700;
   }
+  #directory.grid-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  #directory.list-view {
+    display: block;
+  }
+  
+  .member {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .view-toggle {
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+  }
   
