@@ -42,7 +42,7 @@ nav ul {
 
 nav a {
   display: block;
-  color: #402AC0;
+  color: #1D0C9B;
   text-align: center;
   padding: 1rem;
   text-decoration: none;
@@ -50,7 +50,9 @@ nav a {
 }
 
 nav a:hover {
-  border: 1px solid white;
+  background-color: #e0cfe4;
+  /* Más contraste al hacer hover */
+  border: 1px solid #402AC0;
 }
 
 nav .active {
@@ -176,7 +178,7 @@ footer section {
 }
 
 .sidebar h3 {
-  color: #003366;
+  color: #001F4D;
   margin-top: 1rem;
   font-size: 1.1rem;
 }
@@ -227,7 +229,7 @@ footer section {
 .gallery figcaption {
   font-size: 0.95rem;
   font-style: italic;
-  color: #555;
+  color: #333333;
   line-height: 1.4;
   margin-top: 0.5rem;
 }
@@ -478,6 +480,7 @@ aside li {
 .view-toggle button:hover {
   background-color: #5a42d1;
 }
+
 .directory-container {
   grid-column: 1/4;
   display: grid;
