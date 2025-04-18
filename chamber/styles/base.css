@@ -15,6 +15,7 @@ body {
 header {
   display: flex;
   justify-content: center;
+  text-align: center;
   align-items: center;
   background-color: #FFDFE8;
   color: black;
@@ -22,9 +23,10 @@ header {
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+
 #sd-logo {
   width: 15%;
-  margin-right: 10%;
+
 }
 
 nav {
@@ -89,6 +91,7 @@ nav .active {
   color: black;
   padding: 15px 30px;
   font-size: 1.2rem;
+  text-decoration: none;  
   font-weight: bold;
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -110,7 +113,7 @@ nav .active {
 .card-4,
 .card-5 {
   text-align: center;
-  background: #801C80;
+  background: #13106A;
   color: white;
   padding: 20px;
   border-radius: 10px;
@@ -128,20 +131,24 @@ nav .active {
 }
 
 .card {
-  background: #801C80;
+  background: #05365B;
   color: white;
-  padding: 2%;
+  padding: 5%;
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.315);
   flex: 1;
+  margin: 2%;
 }
 
 .card-5 {
   flex: 1 1 60%;
   max-width: 60%;
 }
-
+.cards-section a {
+  color: white;
+  text-decoration: none;
+}	
 .weatherwidget-io {
   width: 100% !important;
   height: 150px !important;
@@ -150,10 +157,12 @@ nav .active {
 
 footer {
   text-align: center;
-  background-color: #C00E40;
-  padding: 20px;
   font-weight: bold;
+  max-width: 1000px;
   margin: 0 auto;
+  background-color: #85072B;
+  padding: 20px;
+  color: white;
 }
 
 footer section {
@@ -240,18 +249,10 @@ iframe {
   margin-top: 1rem;
 }
 
-footer {
-  max-width: 1000px;
-  margin: 0 auto;
-  background-color: #C00E40;
-  padding: 20px;
-  font-weight: bold;
-  color: white;
-}
 
 .footer-top {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   flex-wrap: wrap;
   gap: 2rem;
   margin-bottom: 1rem;
@@ -284,7 +285,7 @@ footer {
   justify-content: center;
   align-items: flex-end;
   text-align: right;
-  margin-left: 3%;
+  margin-left: 20%;
   gap: 0.5rem;
 }
 
@@ -448,7 +449,6 @@ aside li {
   text-align: center;
 }
 
-/* Estilo para el título del directorio */
 #directory-title {
   text-align: center;
   font-size: 2rem;
@@ -457,7 +457,7 @@ aside li {
   font-weight: bold;
 }
 
-/* Estilo para los botones de vista */
+
 .view-toggle {
   display: flex;
   justify-content: center;
