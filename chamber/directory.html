@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Marvil Garcia">
-    <meta property="og:title" content="SD Chamber of Commerce"">
+    <meta property="og:title" content="SD Chamber of Commerce">
     <meta property=" og:type" content="website">
     <meta property="og:image" content="images/sd.png">
     <meta property="og:url" content="chamber/chamber.html">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="description"
-        content="Discover Santo Domingo Chamber of Commerce activities, community events, and business highlights curated by Marvil Garcia for WDD 230.">
+        content="Discover our business directory with a modern and responsive design. Switch between grid and list views with styled buttons that disappear on mobile for a better user experience.">
     <meta property="og:site_name" content="SD Chamber of Commerce">
     <meta name="twitter:image:alt" content="SD Chamber of Commerce logo">
     <link rel="icon" href="images/favicon.ico">
@@ -39,15 +39,12 @@
     </header>
 
     <main>
-        <h2>Business Directory</h2>
+        <h2 id="directory-title">Business Directory</h2>
         <div class="view-toggle">
             <button id="gridBtn">Grid View</button>
             <button id="listBtn">List View</button>
         </div>
-
-        <div id="directory" class="grid-view">
-            <!-- JS cargará aquí las tarjetas o filas de miembros -->
-        </div>
+        <div id="directory"></div>
     </main>
 
     <footer>

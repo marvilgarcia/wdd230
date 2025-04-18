@@ -95,6 +95,7 @@
         transform: scale(1.05);
         filter: brightness(1.1);
     }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -109,5 +110,53 @@
 
     .form-layout section {
         margin-right: 1.5rem;
+    }
+
+
+    .view-toggle {
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    .view-toggle button {
+        margin: 0 0.5rem;
+        padding: 0.5rem 1rem;
+        cursor: pointer;
+    }
+
+
+    .grid-view {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+
+
+    .list-view {
+        display: block;
+        gap: 1.5rem;
+        padding: 1rem;
+    }
+
+
+    .member {
+        padding: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #fff;
+    }
+
+    .member img {
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+    .view-toggle {
+        display: none;
     }
 }

@@ -4,7 +4,7 @@
         "address": "Av. Isabel Aguiar 209, Zona Industrial Herrera, Santo Domingo",
         "phone": "809-531-8060",
         "website": "https://www.brenntag.com/es-do/",
-        "image": "chamber/images/Breenntag.webp",
+        "image": "https://stodoo.blob.core.windows.net/container-odoo-caribe-prod/binary_field-1731957597f4b25fa631c87176526495a5a61d6b1562f0d5b8.gif",
         "membership": "Gold"
     },
     {
@@ -28,7 +28,7 @@
         "address": "Autopista San Isidro, Santo Domingo Este",
         "phone": "809-555-5678",
         "website": "https://gruporamos.com/",
-        "image": "https://www.gruporamos.com.do/wp-content/uploads/2020/06/logo-grupo-ramos.png",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGB294o-yKqf77H_CNT9SFht-85t9DGc_v-A&s",
         "membership": "Platinum"
     },
     {
@@ -36,7 +36,7 @@
         "address": "Zona Industrial de Santiago, Santiago de los Caballeros",
         "phone": "809-555-9012",
         "website": "https://www.induveca.com.do/",
-        "image": "https://www.induveca.com.do/wp-content/uploads/2020/06/logo.png",
+        "image": "https://d3egtvtajmesev.cloudfront.net/wp-content/uploads/2022/02/08224814/gruposid-logo-induveca-300px-05.png",
         "membership": "Gold"
     },
     {
@@ -44,7 +44,7 @@
         "address": "Av. Winston Churchill, Santo Domingo",
         "phone": "809-555-3456",
         "website": "https://sirena.do/",
-        "image": "https://www.lasirena.com.do/images/logo.png",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTPg58QCcbs8rtx1nvYKYWDMwuRo1gMT7HTA&s",
         "membership": "Silver"
     },
     {
@@ -52,7 +52,7 @@
         "address": "Av. John F. Kennedy, Santo Domingo",
         "phone": "809-544-5555",
         "website": "https://www.popularenlinea.com/",
-        "image": "https://www.popularenlinea.com/PublishingImages/logo-popular.svg",
+        "image": "https://play-lh.googleusercontent.com/6cnsVaRs5hdCD6_6722HO0Wl7GZ5UNKvI2vs_ZiFg_s0wXJQQ66cPkSaf9mhmR0DDU-J",
         "membership": "Platinum"
     },
     {
@@ -60,7 +60,7 @@
         "address": "Av. John F. Kennedy esquina Lope de Vega, Santo Domingo",
         "phone": "809-220-1111",
         "website": "https://www.claro.com.do/",
-        "image": "https://www.claro.com.do/wps/wcm/connect/rd/bb034fe7-e221-44dc-a20a-81ec0196b6a1/logo-claro.svg?MOD=AJPERES&CACHEID=ROOTWORKSPACE.Z18_4IC1H4G0MGO500Q9JD4GA720D3-bb034fe7-e221-44dc-a20a-81ec0196b6a1-nJUlI34",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Claro.svg",
         "membership": "Gold"
     },
     {
@@ -68,7 +68,7 @@
         "address": "Carretera de Mendoza, Santo Domingo Este",
         "phone": "809-591-4000",
         "website": "https://www.coca-colacompany.com/",
-        "image": "https://www.coca-cola.com/content/dam/onexp/do/es/homepage/logo.svg",
+        "image": "https://freepnglogo.com/images/all_img/coca-cola-logo-3349.png",
         "membership": "Silver"
     }
 ]

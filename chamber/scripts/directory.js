@@ -12,10 +12,10 @@ function displayMembers(members) {
   directory.innerHTML = "";
   members.forEach((member) => {
     const section = document.createElement("section");
-    section.classList.add("member");
+    section.classList.add("member-card"); // <- corregido aquí
 
     section.innerHTML = `
-      <img src="images/${member.image}" alt="${member.name} logo" loading="lazy">
+      <img src="${member.image}" alt="${member.name} logo" loading="lazy">
       <h3>${member.name}</h3>
       <p>${member.address}</p>
       <p>${member.phone}</p>
